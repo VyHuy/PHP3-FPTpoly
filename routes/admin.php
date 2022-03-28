@@ -5,6 +5,7 @@ use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\Admin\ProductController;
 use App\Http\Controllers\LoginController;
 use Illuminate\Support\Facades\Auth;
+use App\Http\Controllers\UserController;
 
 Route::get('dashboard', function(){
     return "Admin Dashboard";
